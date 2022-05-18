@@ -3,6 +3,34 @@ body {
     color: seashell;
 }
 
+header {
+    position: fixed;
+}
+
 .nav {
     display: inline;
+}
+
+.logo {
+    position: relative;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.banner {
+    background-image: url("./Resources/img-mission-background.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 69px;
+}
+
+.banner-text {
+    background-color: black;
+    position: relative;
+    top: 350px;
+    text-align: center;
 }
