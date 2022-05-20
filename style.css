@@ -1,14 +1,35 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
 body {
     background-color: black;
-    color: seashell;
+    margin: 0px;
 }
 
 header {
     position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    height: 69px;
 }
 
 .nav {
-    display: inline;
+    display: inline-flex;
+    background: black;
+}
+
+ul {
+    list-style: none;
+    text-decoration: underline;
+}
+
+li {
+    margin: 10px;
 }
 
 .logo {
@@ -30,7 +51,16 @@ header {
 
 .banner-text {
     background-color: black;
+    opacity: 1;
     position: relative;
     top: 350px;
     text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 20px;
 }
