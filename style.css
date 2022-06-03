@@ -91,6 +91,10 @@ figcaption {
 
 .monthlytea {
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
 }
 
 
@@ -104,7 +108,6 @@ figcaption {
     margin: 40px auto auto auto;
     display: flex;
     align-items: center;
-    flex-direction: column;
 }
 
 .locations-header {
