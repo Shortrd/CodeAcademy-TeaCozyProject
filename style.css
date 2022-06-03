@@ -78,15 +78,15 @@ figcaption {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-    top: 50px;
+    top: 100px;
 }
 
 .banner-text {
     background-color: black;
     opacity: 1;
     position: relative;
-    top: 350px;
     text-align: center;
+    top: 303px;
 }
 
 
