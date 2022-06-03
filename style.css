@@ -1,8 +1,17 @@
 * {
     font-family: Helvetica;
-    color: seashell;
     opacity: 0.9;
+    color: seashell;
+    font-size: 22px;
     box-sizing: border-box;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1em;
 }
 
 body {
@@ -29,6 +38,7 @@ figcaption {
     position: fixed;
     background-color: black;
     width: 100%;
+    opacity: 1;
     z-index: 1;
     height: 69px;
     top: 0px;
@@ -43,6 +53,7 @@ figcaption {
 
 .container {
     background: black;
+    border-bottom: 1px solid seashell;
     margin: 0 auto;
     height: 69px;
 }
@@ -62,7 +73,7 @@ figcaption {
     background-image: url("./Resources/img-mission-background.jpg");
     background-size: cover;
     height: 700px;
-    max-width: 1200px;
+    width: 1200px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -90,6 +101,8 @@ figcaption {
 }
 
 .monthlytea {
+    max-width: 1000px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px;
