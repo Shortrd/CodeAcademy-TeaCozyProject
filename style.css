@@ -102,16 +102,23 @@ figcaption {
     max-width: 1200px;
     background-position: right;
     margin: 40px auto auto auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .locations-header {
     text-align: center;
+    margin: 0px 0px 15px 0px;
 }
 
 .box-container {
     display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 40px;
+    margin-top: 0px;
+    opacity: 1;
 }
 
 .location-item {
